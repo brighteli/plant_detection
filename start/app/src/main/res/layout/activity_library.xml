@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LibraryActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/plantImageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginStart="0dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/back" />
+
+
+        <TextView
+            android:id="@+id/txtPlantNameTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/plantImageView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="4dp"
+            android:padding="10dp"
+            android:text="PLANT NAME:"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txtPlantName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPlantNameTag"
+            android:layout_marginStart="40dp"
+
+            android:lineSpacingExtra="4dp"
+            android:text="Plant Name"
+            android:textColor="#373737"
+
+
+            android:textSize="18sp" />
+
+        <!--<View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#2e2e2e"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtPlantName" />-->
+
+
+        <TextView
+            android:id="@+id/txtScienfiicNameTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPlantName"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="4dp"
+            android:padding="10dp"
+            android:text="SCIENTIFIC NAME:"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/txtScienfiicName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtScienfiicNameTag"
+            android:layout_marginStart="40dp"
+
+
+            android:layout_marginEnd="8dp"
+            android:text="Scientific Name"
+            android:textColor="#373737"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtPlantDescriptiionTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtScienfiicName"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="4dp"
+            android:padding="10dp"
+            android:text="DESCRIPTION:"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPlantDescriptiion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPlantDescriptiionTag"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="10dp"
+            android:lineSpacingExtra="8dp"
+            android:text="Description"
+            android:textColor="#373737"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="333dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/firstlogo"
+            app:srcCompat="@drawable/man_1" />
+
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

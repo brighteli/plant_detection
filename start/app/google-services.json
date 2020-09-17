@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "180092271851",
+    "firebase_url": "https://plantnet-8306b.firebaseio.com",
+    "project_id": "plantnet-8306b",
+    "storage_bucket": "plantnet-8306b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180092271851:android:2a3536a5bc95efc42652ae",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.classification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180092271851-978msoddnussvbqp7erbmoq8o752qgjv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.tensorflow.lite.examples.classification",
+            "certificate_hash": "eee1f0dc573e30b81e213ab2d8ff72a9f15be297"
+          }
+        },
+        {
+          "client_id": "180092271851-1dli9puctkonaeks01f2874psooufhav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFECu-N24AUYlNOag-y-MAXOiUMvPjCVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180092271851-1dli9puctkonaeks01f2874psooufhav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
